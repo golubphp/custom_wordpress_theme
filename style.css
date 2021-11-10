@@ -1,0 +1,252 @@
+/*
+Theme Name: Auto Oglasi
+Author: Marjan Golubovic
+Author URI: https://marjangolubovic.github.io/
+Description: Selling cars.
+Version: 1.0
+License: GNU General Public License v2 or later
+Tags: black, brown
+Text Domain: oglasi automobila
+*/
+
+body {
+	
+    background: #ddd url(./assets/images/bg.jpg) repeat top left;
+    -webkit-font-smoothing: antialiased;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+
+
+a{
+	text-decoration: none !important;
+}
+
+img {
+	max-width: 100%;
+}
+
+
+
+/* FOOTER */
+.col_white_amrc { color:#FFF;}
+footer { width:100%; background-color:#263238; min-height:250px; padding:10px 0px 25px 0px ;}
+.pt2 { padding-top:40px ; margin-bottom:20px ;}
+footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
+.mb10 { padding-bottom:15px ;}
+.footer_ul_amrc { margin:0px ; list-style-type:none ; font-size:14px; padding:0px 0px 10px 0px ; }
+.footer_ul_amrc li {padding:0px 0px 5px 0px;}
+.footer_ul_amrc li a{ color:#CCC;}
+.footer_ul_amrc li a:hover{ color:#fff; text-decoration:none;}
+.fleft { float:left;}
+.padding-right { padding-right:10px; }
+
+.footer_ul2_amrc {margin:0px; list-style-type:none; padding:0px;}
+.footer_ul2_amrc li p { display:table; }
+.footer_ul2_amrc li a:hover { text-decoration:none;}
+.footer_ul2_amrc li i { margin-top:5px;}
+
+.bottom_border { border-bottom:1px solid #323f45; padding-bottom:20px;}
+.foote_bottom_ul_amrc {
+	list-style-type:none;
+	padding:0px;
+	display:table;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+}
+.foote_bottom_ul_amrc li { display:inline;}
+.foote_bottom_ul_amrc li a { color:#999; margin:0 12px;}
+
+.social_footer_ul { display:table; margin:15px auto 0 auto; list-style-type:none;  }
+.social_footer_ul li { padding-left:20px; padding-top:10px; float:left; }
+.social_footer_ul li a { color:#CCC; border:1px solid #CCC; padding:8px;border-radius:50%;}
+.social_footer_ul li i {  width:20px; height:20px; text-align:center;}
+
+/* CUSTOM SEARCH CAROUSEL IMAGE SIZE */
+.crsl_img img {
+  width: auto;
+  height: 600px;
+  max-height: 600px;
+}
+
+/* GALLERY IMAGE */
+.attachment-thumbnail  {
+  box-shadow: 0 8px 6px -6px black;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: white;
+  transition: transform .2s;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.attachment-thumbnail:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
+.divider-10 {
+    width:100%; 
+    min-height:1px; 
+    margin-top:10px; 
+    margin-bottom:10px;  
+    display:inline-block; 
+    position:relative;
+}
+
+.page-id-256 {
+	background: #ddd url(images/2.jpg) repeat top left; 
+}
+
+
+/* BREADCRUMBS */
+
+.breadcrumb {
+border-radius: 0px;
+}
+.breadcrumb a {
+
+    text-decoration: none;
+}
+
+/* CUSTOM SIDEBAR WIDGET ITEMS */
+#custom_sidebar_one ul {
+
+    list-style: none;
+	background-color: #fff;
+	border: 1px solid rgba(0,0,0,.125) !important;
+	padding: 1em !important;
+	border-top: none !important;
+}
+
+#custom_sidebar_one ul li {
+padding-top: 0.4em;
+padding-bottom: 0.4em;
+}
+
+#custom_sidebar_one ul li a{
+text-decoration: none;
+}
+
+#custom_sidebar_one h5 {
+    background-color: #F7F7F7;
+	border: 1px solid rgba(0,0,0,.125) !important;
+	padding: 1em !important;
+
+}
+
+#custom_sidebar_one .card-header {
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+#custom_sidebar_one .tagcloud {
+
+	margin-bottom: 1em;
+
+}
+
+#custom_sidebar_one .tagcloud a{
+font-size: 1.5em !important;
+text-decoration: none;
+}
+
+#custom_sidebar_one .tagcloud a:hover {
+color: red !important;
+}
+
+#custom_sidebar_one .card {
+border-radius: 0px !important;
+}
+
+#custom_sidebar_one > div.card.my-4 > h5 {
+border-top: none !important;
+border-left: none !important;
+border-right: none !important;
+border-radius: 0px !important;
+}
+
+#category_section_id{
+list-style: none;
+}
+
+#tags_section_id ul li a {
+	float: left;
+}
+
+/* SOCIAL ICONS SHARING */
+
+ .at-share-btn {
+    display: inline-block;
+    margin: 0 2px 5px;
+    overflow: hidden;
+    line-height: 0;
+
+    cursor: pointer;
+    font-family: helvetica neue,helvetica,arial,sans-serif;
+	padding: 5px;
+}
+
+ .at-share-btn:hover {
+    transition: all .2s ease-in-out;
+    background-color: red;
+	margin: -6px 2px 5px;
+}
+
+.at-icon-wrapper {
+    float: left;
+
+}
+
+/* REGISTRATION PAGE */
+#registracija_section i {
+	padding-top: 0.5em;
+}
+
+
+
+/* COMMENTS STYLE */
+
+.comment-body {
+	background-color: #F7F7F7;
+	margin-bottom: 2em;	
+	padding: 2em;
+	border: 2px solid #E3E3E3;
+}
+
+#comments li {
+list-style: none;
+}
+
+#comments img {
+display: flex!important;
+border-radius: 50%!important;
+}
+
+#comments p {
+	font-style: italic; 
+	background-color: #FFFFFF;
+	padding: 2em;
+	border-radius: 5px;
+}
+
+/* GALLERY IMG STYLE */
+
+#galerija_container img {
+padding: 1em;
+}
+
+
+/* Add custom styles to the WordPress editor */
+
+.highlighter {
+    background-color: red;
+}
+
+
+
+

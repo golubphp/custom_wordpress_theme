@@ -1,0 +1,16 @@
+1. Create ringispil-activate.php file
+// kreiranje reda ringispil_opts, u bazi pod wp_options
+
+2. Create ringispil-admin-menu.php file
+// kreira stranicu u admin delu
+
+3. Create ringispil-front-end.php file
+// sadrzi html stranice
+
+3. Create ringispil-init.php file
+// ukljucuje css bootstrap i js skripte 
+// sadrzi akciju za spremanje podataka u bazu
+
+4. Create ringispil-options.php file
+// ubacuje podatke u bazu
+// vrsi redirekciju na novu stranicu sa query string parametrima 
